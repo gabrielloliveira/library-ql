@@ -43,7 +43,9 @@ query{
 
 ## Minhas primeiras impressões
 
-Eu gosto bastante da proposta do graphql e acho que pode facilitar as coisas (dependendo do caso). Como minha stack principal é Django, resolvi fazer o teste e ver como se comporta em relação ao Django REST.
+Eu gosto bastante da proposta do graphql e acho que, dependendo do caso, ele pode facilitar as coisas. 
+
+Como minha stack principal é Django, resolvi fazer o teste e ver como se comporta em relação ao Django REST.
 
 Algumas futuras melhorias que quero fazer é retirar o padrão que o JS tem para com as strings (esqueci o nome do padrão agora rsrs), que ele retira o underline e bota a próxima letra em uppercase.
 
