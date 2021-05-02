@@ -54,9 +54,10 @@ O field created_at do meu modelo, fica como createdAt no graphql.
 
 No momento, eu não gosto disso. Acho que, ao menos os campos da query, devem representar os campos reais do BD.
 
-Com certeza deve ter uma explicação no âmbito de migrações de linguagens. Por exemplo, como o graphql vai ser executado com um framework JS, por isso que elez fazem esses "alias" com os campos e queries do modelo, para ajudar o prettier.
+Com certeza deve ter uma explicação no âmbito de migrações de linguagens. Por exemplo, como o graphql vai ser executado com um framework JS, deve ser esse o motivo para fazerem esses "alias" com os campos e queries do modelo. Para ajudar o prettier, linter e qualquer outra coisa que pode reclamar da sintaxe "data.created_at".
 
-O fato é que hoje, no dia que escrevo isso, ainda não fui atrás para saber o motivo por trás. Hoje eu não gosto dessa conversão de nomes, mas nada é definitivo. Com o tempo, eu vou descobrir os melhores padrões pra me ajudar a desenvolver.
+O fato é que hoje, no dia que escrevo isso, ainda não fui atrás para saber o motivo por trás para a escolha desse design.
+
+Hoje eu não gosto dessa conversão de nomes, mas nada é definitivo. Com o tempo, eu vou descobrir os melhores padrões pra me ajudar a desenvolver.
 
 Outras melhorias para se lançar nesse projeto é fazer o CRUD completo. Por enquanto ele só faz a listagem e busca.
-
