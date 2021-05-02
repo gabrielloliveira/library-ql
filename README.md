@@ -61,3 +61,5 @@ O fato é que hoje, no dia que escrevo isso, ainda não fui atrás para saber o 
 Hoje eu não gosto dessa conversão de nomes, mas nada é definitivo. Com o tempo, eu vou descobrir os melhores padrões pra me ajudar a desenvolver.
 
 Outras melhorias para se lançar nesse projeto é fazer o CRUD completo. Por enquanto ele só faz a listagem e busca.
+
+Para quem quer se aventurar também e brincar um pouco com o graphene e o django, fiz esse projetinho baseado [nesse post aqui](https://docs.graphene-python.org/projects/django/en/latest/tutorial-relay/)
